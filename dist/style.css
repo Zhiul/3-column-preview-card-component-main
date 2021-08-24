@@ -1,0 +1,85 @@
+body {
+  font-size: 0.9375rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 5.5rem auto 5.5rem auto;
+  border-radius: 7px;
+  width: calc(100% - 3rem);
+  flex-direction: column;
+  overflow: hidden;
+}
+@media (min-width: 64em) {
+  .card {
+    flex-direction: row;
+    max-width: 57.56rem;
+    margin-top: 172px;
+    margin-bottom: 130px;
+  }
+}
+.card__description {
+  line-height: 1.55;
+  margin-bottom: 1.6875rem;
+}
+@media (min-width: 64em) {
+  .card__description {
+    margin-bottom: 5.43rem;
+  }
+}
+.card .column button {
+  color: #e38826;
+  font-family: "Lexend Deca", sans-serif;
+  width: 9.0625rem;
+  height: 2.875rem;
+  border-style: none;
+  border-radius: 60px;
+  border: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.card .column button:hover {
+  color: #f2f2f2;
+  background-color: transparent;
+  border: 2px solid #f2f2f2;
+}
+.card .column {
+  padding: 48px 51px 48px 48px;
+}
+.card .column__orange {
+  background-color: #e38826;
+}
+.card .column__orange button {
+  color: #e38826;
+}
+.card .column__cyan {
+  background-color: #006970;
+}
+.card .column__cyan button {
+  color: #006970;
+}
+.card .column__darkCyan {
+  background-color: #004241;
+}
+.card .column__darkCyan button {
+  color: #004241;
+}
+.card .column p {
+  color: rgba(255, 255, 255, 0.75);
+}
+.card .column h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.125rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.flex {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
